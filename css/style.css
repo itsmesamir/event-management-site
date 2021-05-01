@@ -1,0 +1,921 @@
+.top-intro-page {
+    background: url(../images/top-bg-black.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 525px;
+}
+
+.nav {
+    padding-top: 5%;
+}
+
+.logo {
+    cursor: pointer;
+    float: left;
+    width: 10%;
+    box-sizing: border-box;
+}
+
+.menu {
+    /* display: none; */
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 1.8% 0 0 15%;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu ul li a:hover {
+    color: #FDAF19;
+}
+
+.transparent-btn {
+    margin-top: 1%;
+    float: left;
+    width: 20%;
+}
+
+.transparent-btn>a:hover {
+    background: #FDAF19;
+}
+
+.transparent-btn>a {
+    /* display: none; */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 25px;
+    border: 2px solid white;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.hamburger-icon img {
+    /* display: none; */
+    margin-top: 2%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 15%;
+    background: #F0474A;
+    padding: 6px 8px;
+    border-radius: 6px;
+    float: right;
+}
+
+.hamburger-icon img:hover {
+    background: #FDAF19;
+}
+
+
+/* intro content */
+
+.intro-content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.intro-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+}
+
+.intro-subtitle {
+    font-size: 12px;
+}
+
+.countdown {
+    background: #c74a3c;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.countdown ul {
+    list-style: none;
+}
+
+.countdown ul li {
+    display: inline-block;
+    padding: 8px 1px;
+}
+
+.time-number {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.date-text {
+    font-size: 11px;
+    font-weight: 300px;
+}
+
+.countdown ul li p {
+    padding-bottom: 5px;
+    line-height: 10px;
+}
+
+.dash {
+    width: 10px;
+    height: 2px;
+    margin-bottom: 14px;
+    background: #e9b7b1;
+}
+
+
+/* button part  */
+
+.btn-part {
+    margin-top: 15%;
+}
+
+.btn-part li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.btn-part a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 15px;
+    border: 2px solid white;
+    font-weight: 700;
+    font-size: 11px;
+    border-radius: 25px;
+}
+
+#yellow-bg {
+    border: none;
+    color: #000;
+    font-size: 11px;
+    background-color: #FDAF19;
+}
+
+.btn-part a:hover {
+    background-color: #F0474A;
+}
+
+.play i {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.play-text {
+    margin: 0 auto;
+    width: 5%;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 40px;
+}
+
+.play i:hover,
+.play-text:hover {
+    color: #F0474A;
+    cursor: pointer;
+}
+
+
+/* design description */
+
+.design-description {
+    color: #000;
+    margin: 45px auto;
+}
+
+.design-desc-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.design-description p {
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+.attend-btn {
+    margin: 12% 0;
+}
+
+.attend-btn li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.attend-btn a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 15px;
+    border: 1.8px solid #c74a3c;
+    font-weight: 700;
+    font-size: 11px;
+    border-radius: 25px;
+}
+
+.attend-btn a:hover {
+    background-color: #F0474A;
+    color: white;
+    border: none;
+}
+
+.total-engagement {
+    min-height: 200px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #FDAF19, #F0474A);
+}
+
+.total-engagement ul {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10% 0;
+    list-style: none;
+}
+
+.total-engagement ul li {
+    display: inline-block;
+    padding: 8px 0px;
+}
+
+.engagement-number {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.engagement-name {
+    font-size: 10px;
+    font-weight: 300px;
+}
+
+.total-engagement ul li p {
+    padding-bottom: 5px;
+    line-height: 10px;
+}
+
+
+/* confirmed speakers */
+
+.speakers {
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.top-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    padding: 18px 0;
+}
+
+.speakers {
+    width: 80%;
+    margin-top: -15%;
+    margin-bottom: -15%;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.speakers ul {
+    list-style: none;
+}
+
+.speakers ul li {
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.speakers ul li img {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.overlay {
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.overlay::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    background: url(../images/overlay-bg.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.speaker-name {
+    position: absolute;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 2;
+    transform: translate(15px, -55px);
+}
+
+.speaker-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 300;
+}
+
+
+/* second gradient bg  */
+
+.second-gradient-bg {
+    height: 170px;
+    width: 100%;
+    background: linear-gradient(to right, #FDAF19, #F0474A);
+}
+
+
+/* schedule part  */
+
+.schedule {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -65px;
+}
+
+.schedule-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.schedule-icon {
+    width: 50px;
+    padding-top: 50px;
+    height: auto;
+    margin: 0 42%;
+}
+
+.schedule-subtitle {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.schedule-section ul {
+    height: auto;
+    list-style: none;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.schedule-section ul li {
+    display: inline-block;
+    padding: 4px 1px;
+}
+
+.schedule-section ul li a {
+    padding-right: 5px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.schedule-section ul li a:hover {
+    color: #F0474A;
+}
+
+.day {
+    padding: 0 2px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.date {
+    font-size: 11px;
+    font-weight: 300px;
+}
+
+.bar {
+    width: 1px;
+    height: 50px;
+    margin-bottom: 15px;
+    background: #e9b7b1;
+}
+
+.schedule-section .active {
+    color: #F0474A;
+}
+
+.hall {
+    text-align: center;
+    background: #e9b7b1;
+    height: 40px;
+    border-radius: 22px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.hall ul {
+    list-style: none;
+}
+
+.hall ul li {
+    display: inline-block;
+}
+
+.hall ul li a {
+    line-height: 30px;
+    font-size: 12px;
+    color: #333;
+}
+
+#active-hall {
+    color: black;
+    font-weight: bolder;
+}
+
+
+/* schedule lists */
+
+.schedule-lists ul {
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.schedule-lists ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.profile-image {
+    width: 20%;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+}
+
+.schedule-lists ul li img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+.middle-text {
+    padding: 0px 5px 20px 25px;
+    width: 60%;
+    /* margin-left: 20px; */
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-bottom: 0.0001px solid #f0c2c3;
+}
+
+.expand-icon {
+    float: left;
+    width: 10%;
+    box-sizing: border-box;
+}
+
+.event-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#past-speakers {
+    margin-top: 10%;
+    box-shadow: none;
+}
+
+
+/* testimonials  */
+
+.testimonials {
+    margin-top: 15%;
+}
+
+.testimonials-list {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.testimonials-list ul {
+    list-style: none;
+    margin-top: 10%;
+}
+
+.testimonials-list ul li {
+    position: relative;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(255, 168, 168, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px 25px 25px 5px;
+    /* padding: 5% 5% 5% 0; */
+    margin: 25px 0;
+}
+
+.profile-black {
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: -45px;
+}
+
+.testi-subtitle {
+    font-size: 15px;
+}
+
+.details-of-people {
+    padding-top: 20px;
+}
+
+.name-of-people {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.address-of-people {
+    font-size: 14px;
+}
+
+.testimony {
+    padding-left: 20%;
+    font-size: 13px;
+}
+
+
+/* second countdown section  */
+
+.hurry-up-txt {
+    padding-top: 15%;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.buy-ticket-btn {
+    padding-bottom: 40px;
+}
+
+.buy-ticket-btn a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    background: #FDAF19;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.buy-ticket-btn a:hover {
+    text-decoration: underline;
+}
+
+
+/* sponsors  */
+
+.sponsors-section {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#sponsor-title {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.sponsor-subtitle {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.sponsor-type {
+    padding-top: 10px;
+    border-top: 1px solid rgb(255, 198, 198);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.platinum-sponsors,
+.media-sponsors ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.platinum-sponsors ul li,
+.media-sponsors ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+}
+
+
+/* map section  */
+
+.map-section {
+    position: relative;
+}
+
+.map-section .bg {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background: url(../images/map-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.location-detail {
+    background: #fff;
+    width: 290px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.location-txt {
+    font-family: 'Playfair Display', serif;
+    padding: 25px 0 0 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.address,
+.social-media-icon {
+    padding: 15px 15px;
+}
+
+.address ul,
+.social-media-icon ul {
+    list-style: none;
+}
+
+.address ul li {
+    display: block;
+    padding: 5px 10px;
+}
+
+.social-media-icon ul li {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.get-update-bg {
+    height: 150px;
+    background: linear-gradient(to right, #FDAF19, #F0474A);
+}
+
+.update-item {
+    text-align: center;
+    padding: 60px 2%;
+}
+
+.update-item span {
+    padding: 0 1.5%;
+}
+
+.email-btn a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 15px;
+    vertical-align: top;
+    border: 1.8px solid #fff;
+    font-size: 13px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.email-btn a:hover {
+    background-color: #FDAF19;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+}
+
+.email-btn i {
+    padding: 5px 0 0 25px;
+}
+
+
+/* footer section  */
+
+.footer-section {
+    min-height: 300px;
+    background: #1c1d1d;
+    color: #fff;
+}
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-section .events-details {
+    float: left;
+    width: 40%;
+}
+
+.footer-section .links {
+    float: left;
+    width: 20%;
+}
+
+.instagram-pictures {
+    float: right;
+    width: 40%;
+}
+
+.instagram-pictures ul {
+    list-style: none;
+    /* width: 50%; */
+}
+
+.instagram-pictures ul li {
+    display: inline-block;
+}
+
+.instagram-pictures ul li img {
+    height: 30px;
+    width: 30px;
+}
+
+.link-title,
+.instagram-title,
+.events-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.links,
+.events-details,
+.instagram-pictures {
+    box-sizing: border-box;
+}
+
+.footer-section {
+    min-height: 250px;
+    background: #1c1d1d;
+    color: #fff;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 2%;
+    align-items: center;
+}
+
+.footer-section .events-details {
+    float: left;
+    width: 40%;
+}
+
+.footer-section .links {
+    float: left;
+    width: 20%;
+}
+
+.instagram-pictures {
+    float: right;
+    width: 40%;
+}
+
+.instagram-pictures ul {
+    list-style: none;
+    height: 100px;
+    width: 200px;
+}
+
+.instagram-pictures ul li {
+    display: inline-block;
+}
+
+.instagram-pictures ul li img {
+    height: 40px;
+    width: 40px;
+}
+
+.link-title,
+.instagram-title,
+.events-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.links,
+.events-details,
+.instagram-pictures {
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+
+.link-list,
+.event-description {
+    font-size: 12px;
+}
+
+.social-media-icon {
+    padding: 1px 1px;
+    box-sizing: border-box;
+}
+
+.social-icon ul {
+    list-style: none;
+}
+
+.address ul li {
+    padding: 5px 1px;
+}
+
+.social-icon ul li {
+    text-align: center;
+    display: inline-block;
+    padding: 5px 1px;
+}
+
+.social-icon ul li i {
+    font-size: 12px;
+}
+
+.social-icon ul li i:hover {
+    cursor: pointer;
+    color: #F0474A;
+}
+
+
+/* bottom footer  */
+
+.bottom-footer {
+    color: #fff;
+    height: 90px;
+    width: 100%;
+    background: #272828;
+}
+
+.footer-txt {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-txt .name {
+    text-decoration: underline;
+}
+
+.footer-txt .name:hover {
+    cursor: pointer;
+    color: #F0474A;
+}

@@ -1,0 +1,1119 @@
+@media screen and (max-width: 342px) {
+    .time-number {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .date-text {
+        font-size: 9px;
+        font-weight: 300px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .logo img {
+        height: 250%;
+        width: 250%;
+    }
+    .menu {
+        display: none;
+    }
+    .transparent-btn>a {
+        display: none;
+    }
+    .footer-section {
+        min-height: 280px;
+    }
+    .instagram-pictures ul {
+        list-style: none;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 479px) and (max-width: 679px) {
+    .logo img {
+        height: 200%;
+        width: 200%;
+    }
+    .menu {
+        display: none;
+    }
+    .transparent-btn>a {
+        display: none;
+    }
+    .hamburger-icon img {
+        margin-top: 1%;
+    }
+    .intro-content {
+        width: 65%;
+        padding-top: 40px;
+    }
+    .intro-title {
+        font-size: 26px;
+    }
+    .intro-subtitle {
+        font-size: 14px;
+    }
+    .btn-part li,
+    .attend-btn li {
+        display: inline-block;
+        list-style: none;
+        padding: 10px 5px;
+    }
+    .total-engagement {
+        min-height: 200px;
+    }
+    .total-engagement ul {
+        width: 80%;
+        margin: 0 auto;
+        padding: 8% 0;
+        list-style: none;
+    }
+    .total-engagement ul li {
+        box-sizing: border-box;
+        padding: 8px 1px;
+    }
+    .engagement-number {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .engagement-name {
+        font-size: 11px;
+    }
+    .hurry-up-txt {
+        padding-top: 55px;
+        font-size: 25px;
+    }
+    /* auditorium space  */
+    .hall {
+        width: 80%;
+    }
+    .schedule-lists ul li img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        /* display: inline-block; */
+    }
+    .schedule-icon {
+        width: 50px;
+        padding-top: 50px;
+        height: 50px;
+        margin: 0 45%;
+    }
+    /* speakers */
+    .speakers {
+        margin-top: -7.5%;
+        margin-bottom: -7.5%;
+    }
+    .overlay {
+        height: auto;
+        width: 100%;
+    }
+    .speakers ul {
+        text-align: center;
+    }
+    .speakers ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+    .speakers ul li img {
+        position: relative;
+    }
+    .overlay::before {
+        content: "";
+        margin: auto;
+        position: absolute;
+        left: 0;
+    }
+    .top-title {
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .speaker-name {
+        position: absolute;
+        font-size: 18px;
+        text-align: left;
+        z-index: 2;
+        transform: translate(-145px, -75px);
+    }
+    .speaker-title {
+        font-size: 11px;
+        z-index: 2;
+        font-weight: 200;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 767px) {
+    .logo img {
+        height: 200%;
+        width: 200%;
+    }
+    .menu {
+        display: none;
+    }
+    .transparent-btn>a {
+        display: none;
+    }
+    .hamburger-icon img {
+        margin-top: 1%;
+    }
+    .intro-content {
+        width: 65%;
+        padding-top: 40px;
+    }
+    .intro-title {
+        font-size: 26px;
+    }
+    .intro-subtitle {
+        font-size: 14px;
+    }
+    .btn-part li,
+    .attend-btn li {
+        display: inline-block;
+        list-style: none;
+        padding: 10px 5px;
+    }
+    .total-engagement ul {
+        width: 80%;
+        margin: 0 auto;
+        padding: 7% 0;
+        list-style: none;
+    }
+    .total-engagement ul li {
+        box-sizing: border-box;
+        padding: 8px 1px;
+    }
+    .engagement-number {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .engagement-name {
+        font-size: 11px;
+    }
+    /* auditorium space  */
+    .hall {
+        width: 60%;
+    }
+    .schedule-lists ul li img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        /* display: inline-block; */
+    }
+    .schedule-icon {
+        width: 60px;
+        padding-top: 50px;
+        height: 60px;
+        margin: 0 45%;
+    }
+    /* speakers */
+    .speakers {
+        margin-top: -7.5%;
+        margin-bottom: -7.5%;
+    }
+    .overlay {
+        height: auto;
+        width: 100%;
+        position: relative;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .speakers ul {
+        text-align: center;
+    }
+    .speakers ul li {
+        display: inline-block;
+        padding: 10px 1px;
+    }
+    .speakers ul li img {
+        background-repeat: no-repeat;
+        width: 246.29px;
+        height: 313.28px;
+        position: relative;
+    }
+    .overlay::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        position: absolute;
+        left: 0;
+    }
+    .top-title {
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .speaker-name {
+        position: absolute;
+        font-size: 18px;
+        text-align: left;
+        z-index: 2;
+        transform: translate(-115px, -75px);
+    }
+    .speaker-title {
+        font-size: 11px;
+        z-index: 2;
+        font-weight: 200;
+    }
+    .profile-black {
+        position: absolute;
+        top: 15%;
+        left: -45px;
+    }
+    .total-engagement {
+        min-height: 200px;
+    }
+    .hurry-up-txt {
+        padding-top: 55px;
+        font-size: 28px;
+    }
+    .social-icon ul li i {
+        font-size: 14px;
+    }
+    .address,
+    .social-media-icon {
+        padding: 15px 0 15px 25px;
+    }
+    .platinum-sponsors ul li,
+    .media-sponsors ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 0px;
+    }
+    .map-section {
+        padding-top: 50px;
+    }
+    .sponsors-section {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .platinum-sponsors ul li img,
+    .media-sponsors ul li img {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .logo img {
+        height: 150%;
+        width: 150%;
+    }
+    .menu ul {
+        list-style: none;
+        margin: 3.2% 0 0 14%;
+    }
+    .menu ul li {
+        display: inline;
+        padding: 0 2px;
+        box-sizing: border-box;
+    }
+    .menu ul li a {
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .transparent-btn {
+        margin-top: 13px;
+    }
+    .transparent-btn>a {
+        padding: 10px 12px;
+        font-weight: 600;
+        font-size: 11px;
+        border-radius: 25px;
+    }
+    .hamburger-icon img {
+        display: none;
+    }
+    .countdown ul li {
+        padding: 18px 10px;
+    }
+    .intro-content {
+        width: 65%;
+        padding-top: 40px;
+    }
+    .intro-title {
+        font-size: 27px;
+        font-weight: 800;
+    }
+    .intro-subtitle {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .dash {
+        margin-bottom: 0px;
+    }
+    .btn-part li,
+    .attend-btn li {
+        display: inline-block;
+        list-style: none;
+        padding: 10px 15px;
+    }
+    .btn-part a,
+    .attend-btn a {
+        padding: 10px 18px;
+    }
+    #desc {
+        width: 60%;
+    }
+    .design-desc-title {
+        font-size: 25px;
+    }
+    .design-description p {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+    .total-engagement ul {
+        width: 70%;
+        margin: 0 auto;
+        padding: 5% 0;
+        list-style: none;
+    }
+    .total-engagement ul li {
+        box-sizing: border-box;
+        padding: 8px 5px;
+    }
+    .total-engagement ul li div {
+        margin-bottom: 10px;
+    }
+    .engagement-number {
+        font-size: 25px;
+    }
+    .engagement-name {
+        font-size: 12px;
+    }
+    /* auditorium space  */
+    .hall {
+        width: 50%;
+    }
+    .schedule-lists ul li img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        /* display: inline-block; */
+    }
+    .schedule-icon {
+        width: 60px;
+        padding-top: 50px;
+        height: 60px;
+        margin: 0 45%;
+    }
+    .top-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        padding: 18px 0;
+    }
+    /* speakers */
+    .speakers {
+        margin-top: -5.5%;
+        margin-bottom: -5.5%;
+    }
+    .overlay {
+        height: auto;
+        width: 100%;
+        position: relative;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .speakers ul {
+        text-align: center;
+    }
+    .speakers ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+    .speakers ul li img {
+        background-repeat: no-repeat;
+        width: 266.29px;
+        height: 343.28px;
+        position: relative;
+    }
+    .overlay::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        position: absolute;
+        left: 0;
+    }
+    .top-title {
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .speaker-name {
+        position: absolute;
+        font-size: 18px;
+        text-align: left;
+        z-index: 2;
+        transform: translate(-115px, -55px);
+    }
+    .speaker-title {
+        font-size: 11px;
+        z-index: 2;
+        font-weight: 200;
+    }
+    .testimonials {
+        margin: 5% auto;
+    }
+    .testimonials-list {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .testimonials-list ul {
+        margin: 3%;
+    }
+    .testimonials-list ul li {
+        width: 35.33%;
+        margin: 25px 25px;
+        padding: 5% 5% 5% 3px;
+        display: inline-block;
+    }
+    .profile-black {
+        position: absolute;
+        top: 15%;
+        left: -40px;
+    }
+    #past-speakers {
+        margin-top: 2%;
+        box-shadow: none;
+    }
+    .hurry-up-txt {
+        padding-top: 55px;
+        font-size: 28px;
+    }
+    .btn-part {
+        margin-top: 5%;
+    }
+    .social-icon ul li i {
+        font-size: 14px;
+    }
+    .address,
+    .social-media-icon {
+        padding: 15px 0 15px 25px;
+    }
+    .platinum-sponsors ul li,
+    .media-sponsors ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 0px;
+    }
+    .map-section {
+        padding-top: 50px;
+    }
+    .sponsors-section {
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .platinum-sponsors ul li img,
+    .media-sponsors ul li img {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+    .logo img {
+        height: 120%;
+        width: 120%;
+    }
+    .menu ul {
+        list-style: none;
+        margin: 2% 0 0 10%;
+    }
+    .menu ul li {
+        display: inline;
+        padding: 0 12px;
+        box-sizing: border-box;
+    }
+    .menu ul li a {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .transparent-btn {
+        margin-top: 10px;
+    }
+    .transparent-btn>a {
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 13px;
+        border-radius: 25px;
+    }
+    .hamburger-icon img {
+        display: none;
+    }
+    .countdown {
+        margin: 40px auto auto auto;
+        width: 80%;
+    }
+    .countdown ul li {
+        padding: 18px 5px;
+    }
+    .intro-content {
+        width: 65%;
+        padding-top: 30px;
+    }
+    .intro-title {
+        font-size: 32px;
+        font-weight: 900;
+    }
+    .intro-subtitle {
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .dash {
+        margin-bottom: 0%;
+    }
+    .btn-part,
+    .attend-btn {
+        margin-top: 35px;
+    }
+    .btn-part li,
+    .attend-btn li {
+        display: inline-block;
+        list-style: none;
+        padding: 20px 15px 0 15px;
+    }
+    .btn-part a,
+    .attend-btn a,
+    #yellow-bg {
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .time-number {
+        font-size: 28px;
+    }
+    .date-text {
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 300px;
+    }
+    #desc {
+        width: 60%;
+    }
+    .design-desc-title {
+        font-size: 30px;
+    }
+    .design-description p {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+    .total-engagement {
+        min-height: 250px;
+    }
+    .engagement-number {
+        font-size: 28px;
+    }
+    .engagement-name {
+        font-size: 15px;
+        font-weight: 300px;
+    }
+    .total-engagement ul {
+        width: 80%;
+        margin: 0 auto;
+        padding: 5% 0;
+        list-style: none;
+    }
+    .total-engagement ul li {
+        padding: 5px 12px;
+    }
+    .total-engagement ul li p {
+        padding-bottom: 5px;
+        line-height: 15px;
+    }
+    .total-engagement ul li div {
+        width: 10px;
+        height: 2px;
+        margin-bottom: 15px;
+    }
+    /* schedule  */
+    .schedule-subtitle {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .schedule-section ul li {
+        display: inline-block;
+        padding: 4px 15px;
+    }
+    .day {
+        padding: 0 2px;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .date {
+        font-size: 14px;
+        font-weight: 400px;
+    }
+    /* auditorium space  */
+    .hall {
+        width: 40%;
+    }
+    .hall ul li a {
+        font-weight: bolder;
+        font-size: 13px;
+    }
+    .middle-text {
+        font-size: 14px;
+    }
+    .event-name {
+        font-size: 17px;
+    }
+    .schedule-lists {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .schedule-lists ul li img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        /* display: inline-block; */
+    }
+    .schedule-icon {
+        width: 60px;
+        padding-top: 50px;
+        height: 60px;
+        margin: 0 46%;
+    }
+    .top-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        padding: 10px 0;
+    }
+    /* speakers */
+    .speakers {
+        margin-top: -5.5%;
+        margin-bottom: -5.5%;
+    }
+    .overlay {
+        height: auto;
+        width: 100%;
+        position: relative;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .speakers ul {
+        text-align: center;
+    }
+    .speakers ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+    .speakers ul li img {
+        background-repeat: no-repeat;
+        width: 266.29px;
+        height: 343.28px;
+        position: relative;
+    }
+    .overlay::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        position: absolute;
+        left: 0;
+    }
+    .top-title {
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .speaker-name {
+        position: absolute;
+        font-size: 18px;
+        text-align: left;
+        z-index: 2;
+        transform: translate(-115px, -55px);
+    }
+    .speaker-title {
+        font-size: 11px;
+        z-index: 2;
+        font-weight: 200;
+    }
+    .testimonials {
+        margin-top: 5%;
+    }
+    .testimonials-list {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .testimonials-list ul {
+        margin: 3%;
+    }
+    .testimonials-list ul li {
+        width: 40%;
+        margin: 25px 25px;
+        padding: 5% 5% 5% 1%;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    .profile-black {
+        position: absolute;
+        top: 15%;
+        left: -40px;
+    }
+    #past-speakers {
+        margin-top: 2%;
+        box-shadow: none;
+    }
+    .hurry-up-txt {
+        padding-top: 55px;
+        font-size: 30px;
+    }
+    .btn-part {
+        margin-top: 5%;
+    }
+    .social-icon ul li i {
+        font-size: 14px;
+    }
+    .address,
+    .social-media-icon {
+        padding: 15px 0 15px 25px;
+    }
+    .platinum-sponsors ul li,
+    .media-sponsors ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    .map-section {
+        padding-top: 50px;
+    }
+    .sponsors-section {
+        width: 88%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .platinum-sponsors ul li img,
+    .media-sponsors ul li img {
+        height: 70%;
+        width: 70%;
+    }
+    .design-description p {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .logo img {
+        height: 110%;
+        width: 110%;
+    }
+    .menu ul {
+        list-style: none;
+        margin: 2% 0 0 10%;
+    }
+    .menu ul li {
+        display: inline;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .menu ul li a {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .transparent-btn {
+        margin-top: 10px;
+    }
+    .transparent-btn>a {
+        padding: 10px 30px;
+        font-weight: 600;
+        font-size: 13px;
+        border-radius: 25px;
+    }
+    .hamburger-icon img {
+        display: none;
+    }
+    .countdown {
+        margin: 40px auto auto auto;
+        width: 80%;
+    }
+    .countdown ul li {
+        padding: 20px 10px;
+    }
+    .intro-content {
+        width: 60%;
+        padding-top: 30px;
+    }
+    .intro-title {
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .intro-subtitle {
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .dash {
+        margin-bottom: 0%;
+    }
+    .btn-part,
+    .attend-btn {
+        margin-top: 35px;
+    }
+    .btn-part li,
+    .attend-btn li {
+        display: inline-block;
+        list-style: none;
+        padding: 20px 15px 0 15px;
+    }
+    .btn-part a,
+    .attend-btn a,
+    #yellow-bg {
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+    .time-number {
+        font-size: 30px;
+    }
+    .date-text {
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 300px;
+    }
+    #desc {
+        width: 50%;
+    }
+    .design-desc-title {
+        font-size: 30px;
+    }
+    .design-description p {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+    .total-engagement {
+        min-height: 250px;
+    }
+    .engagement-number {
+        font-size: 28px;
+    }
+    .engagement-name {
+        font-size: 15px;
+        font-weight: 300px;
+    }
+    .total-engagement ul {
+        width: 80%;
+        margin: 0 auto;
+        padding: 5% 0;
+        list-style: none;
+    }
+    .total-engagement ul li {
+        padding: 5px 12px;
+    }
+    .total-engagement ul li p {
+        padding-bottom: 5px;
+        line-height: 15px;
+    }
+    .total-engagement ul li div {
+        width: 10px;
+        height: 2px;
+        margin-bottom: 15px;
+    }
+    /* schedule  */
+    .schedule-subtitle {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .schedule-section ul li {
+        display: inline-block;
+        padding: 4px 15px;
+    }
+    .day {
+        padding: 0 2px;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .date {
+        font-size: 14px;
+        font-weight: 400px;
+    }
+    /* auditorium space  */
+    .hall {
+        width: 40%;
+    }
+    .hall ul li a {
+        font-weight: bolder;
+        font-size: 13px;
+    }
+    .schedule-lists {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .schedule-lists ul li img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+    .schedule-icon {
+        width: 60px;
+        padding-top: 50px;
+        height: 60px;
+        margin: 0 47.2%;
+    }
+    #past-speakers {
+        margin-top: 50px;
+        box-shadow: none;
+    }
+    .middle-text {
+        font-size: 15px;
+    }
+    .event-name {
+        font-size: 18px;
+    }
+    /* speakers */
+    .speakers {
+        margin-top: -5.5%;
+        margin-bottom: -5.5%;
+    }
+    .overlay {
+        height: auto;
+        width: 100%;
+        position: relative;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .speakers ul {
+        text-align: center;
+    }
+    .speakers ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+    .speakers ul li img {
+        background-repeat: no-repeat;
+        width: 276.29px;
+        height: 348.28px;
+        position: relative;
+    }
+    .overlay::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        position: absolute;
+        left: 0;
+    }
+    .top-title {
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px;
+    }
+    .speaker-name {
+        position: absolute;
+        font-size: 18px;
+        text-align: left;
+        z-index: 2;
+        transform: translate(-115px, -55px);
+    }
+    .speaker-title {
+        font-size: 11px;
+        z-index: 2;
+        font-weight: 200;
+    }
+    .hurry-up-txt {
+        padding-top: 55px;
+        font-size: 28px;
+    }
+    .testimonials {
+        margin: 5% auto;
+    }
+    .testimonials-list {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .testimonials-list ul {
+        margin: 3%;
+    }
+    .testimonials-list ul li {
+        width: 35.33%;
+        margin: 25px 25px;
+        padding: 5% 5% 5% 0;
+        display: inline-block;
+    }
+    .profile-black {
+        position: absolute;
+        top: 15%;
+        left: -40px;
+    }
+    #past-speakers {
+        margin-top: 2%;
+        box-shadow: none;
+    }
+    .hurry-up-txt {
+        padding-top: 55px;
+        font-size: 28px;
+    }
+    .btn-part {
+        margin-top: 5%;
+    }
+    .email-btn a {
+        padding: 10px 25px;
+        border: 1.8px solid #fff;
+        font-size: 15px;
+    }
+    .social-icon ul li i {
+        font-size: 14px;
+    }
+    .address,
+    .social-media-icon {
+        padding: 15px 0 15px 25px;
+    }
+    .platinum-sponsors ul li,
+    .media-sponsors ul li {
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 20px;
+    }
+    .map-section {
+        padding-top: 50px;
+    }
+    .sponsors-section {
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .platinum-sponsors ul li img,
+    .media-sponsors ul li img {
+        height: 80%;
+        width: 80%;
+    }
+    /* footer section  */
+    .footer-section {
+        min-height: 300px;
+    }
+    .footer-container {
+        padding: 5% 5%;
+    }
+    .instagram-pictures ul {
+        list-style: none;
+        width: 60%;
+    }
+    .link-title,
+    .instagram-title,
+    .events-title {
+        font-size: 20px;
+    }
+    .links,
+    .events-details,
+    .instagram-pictures {
+        box-sizing: border-box;
+        padding: 0 50px;
+    }
+    .link-list,
+    .event-description {
+        font-size: 14px;
+        padding: 25px 0;
+    }
+}
