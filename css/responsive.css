@@ -28,6 +28,14 @@
         height: 100%;
         width: 100%;
     }
+    .email-btn input {
+        padding: 0 5px;
+    }
+    .email-btn i {
+        color: #fff;
+        font-size: 15px;
+        padding: 5px 15px 0 0px;
+    }
 }
 
 @media screen and (min-width: 479px) and (max-width: 679px) {
@@ -1059,8 +1067,6 @@
         margin-top: 5%;
     }
     .email-btn a {
-        padding: 10px 25px;
-        border: 1.8px solid #fff;
         font-size: 15px;
     }
     .social-icon ul li i {
@@ -1114,6 +1120,6 @@
     .link-list,
     .event-description {
         font-size: 14px;
-        padding: 25px 0;
+        padding: 0px 0;
     }
 }

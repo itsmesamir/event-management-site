@@ -712,34 +712,48 @@
 
 .update-item {
     text-align: center;
-    padding: 60px 2%;
+    padding: 55px 2%;
 }
 
 .update-item span {
-    padding: 0 1.5%;
+    padding: 12px 1.5%;
 }
 
-.email-btn a {
-    color: #fff;
+.email-btn {
     text-decoration: none;
-    text-align: center;
-    padding: 0px 15px;
-    vertical-align: top;
     border: 1.8px solid #fff;
-    font-size: 13px;
+    font-size: 12px;
     border-radius: 25px;
-    box-sizing: border-box;
+    padding: 0 50px;
 }
 
-.email-btn a:hover {
-    background-color: #FDAF19;
-    color: white;
+.email-btn input {
+    background: transparent;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
     border: none;
-    box-sizing: border-box;
+    padding: 0 10px;
+    height: 45px;
+    line-height: 45px;
+    outline: none;
+}
+
+.email-btn input::placeholder {
+    color: #fff;
+    font-size: 20px;
 }
 
 .email-btn i {
-    padding: 5px 0 0 25px;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 20px 0 0px;
+}
+
+.email-btn i:hover {
+    color: #FDAF19;
+    cursor: pointer;
 }
 
 
@@ -863,6 +877,15 @@
 .link-list,
 .event-description {
     font-size: 12px;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-list a:hover {
+    text-decoration: underline;
 }
 
 .social-media-icon {
