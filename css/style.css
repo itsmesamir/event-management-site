@@ -172,6 +172,10 @@
     background-color: #FDAF19;
 }
 
+#yellow-bg:hover {
+    text-decoration: underline;
+}
+
 .btn-part a:hover {
     background-color: #F0474A;
 }
