@@ -643,6 +643,10 @@
     font-weight: 400;
 }
 
+.platinum-sponsors ul {
+    margin-bottom: 40px;
+}
+
 .platinum-sponsors,
 .media-sponsors ul {
     list-style: none;
