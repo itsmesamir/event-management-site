@@ -264,13 +264,77 @@
 /* confirmed speakers */
 
 .speakers {
+    width: 80%;
+    margin-top: -15%;
+    margin-bottom: -15%;
     padding: 50px 20px;
     box-sizing: border-box;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.speakers ul {
+    list-style: none;
 }
 
 .speakers ul li {
+    display: block;
     padding: 15px;
     box-sizing: border-box;
+}
+
+.speakers ul li img {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.overlay {
+    position: relative;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.overlay::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    background: url(../images/overlay-bg.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.speaker-name {
+    position: absolute;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 2;
+    transform: translate(15px, -65px);
+}
+
+.speaker-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    transform: translate(18px, -32px);
+    z-index: 2;
+    font-weight: 300;
 }
 
 .top-title {
@@ -279,14 +343,6 @@
     font-size: 20px;
     text-align: center;
     padding: 18px 0;
-}
-
-.speaker-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    color: #fff;
-    z-index: 2;
-    font-weight: 300;
 }
 
 

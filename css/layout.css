@@ -23,65 +23,6 @@
     box-sizing: border-box;
 }
 
-.speakers {
-    width: 80%;
-    margin-top: -15%;
-    margin-bottom: -15%;
-    position: relative;
-    background: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.speakers ul {
-    list-style: none;
-}
-
-.speakers ul li {
-    display: block;
-}
-
-.speakers ul li img {
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.overlay {
-    position: relative;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.overlay::before {
-    content: "";
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    margin: auto;
-    position: absolute;
-    background: url(../images/overlay-bg.png) no-repeat;
-    background-size: 100% 100%;
-    z-index: 1;
-}
-
-.speaker-name {
-    position: absolute;
-    color: #fff;
-    font-family: 'Playfair Display', serif;
-    font-size: 16px;
-    font-weight: bold;
-    z-index: 2;
-    transform: translate(15px, -55px);
-}
-
 .schedule-section ul li {
     display: inline-block;
     padding: 4px 1px;
